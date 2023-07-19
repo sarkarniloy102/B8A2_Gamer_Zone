@@ -273,3 +273,31 @@
 }
 
 /* section_04 end */
+
+/* section_05 start */
+.section5_games_name {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 15px;
+    row-gap: 50px;
+    align-items: center;
+    list-style: none;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.section5_games_name li a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.section5_games_name li:hover {
+    border-radius: 50px;
+    border: 2px solid #F948B2;
+    padding: 5px;
+}

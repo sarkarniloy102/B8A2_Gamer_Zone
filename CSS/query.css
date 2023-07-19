@@ -72,6 +72,24 @@
         bottom: 100px;
         right: 55%;
     }
+
+    .section5_games_name {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+        column-gap: 0px;
+
+    }
+
+    .section5_games_name li {
+        gap: 0px;
+    }
+
+    .section5_games_name li a {
+        font-size: 10px;
+        gap: 0px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
@@ -136,5 +154,18 @@
         position: relative;
         bottom: 140px;
         right: 55%;
+    }
+
+    .section5_games_name {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+        column-gap: 0px;
+    }
+
+    .section5_games_name li {
+        width: 200px;
+        gap: 0;
     }
 }
