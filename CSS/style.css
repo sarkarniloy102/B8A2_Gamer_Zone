@@ -268,7 +268,8 @@
 .sec4_img2 {
     position: relative;
     bottom: 200px;
-    right: 150px;
+    right: 100px;
+    width: 50%;
 }
 
 /* section_04 end */
