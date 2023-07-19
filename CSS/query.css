@@ -3,11 +3,14 @@
     .navbar,
     .menubar ul,
     .section1_container,
-    .section2_container,
     .section3_game,
     .section4_container {
         flex-direction: column;
         gap: 30px;
+    }
+
+    .section2_container {
+        flex-direction: column-reverse;
     }
 
     .navbar,
@@ -117,11 +120,15 @@
 
     .navbar,
     .section1_container,
-    .section2_container,
     .section4_container {
         flex-direction: column;
         gap: 30px;
     }
+
+    .section2_container {
+        flex-direction: column-reverse;
+    }
+
 
     .navbar,
     .section2_container {
