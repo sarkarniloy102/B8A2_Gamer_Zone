@@ -8,6 +8,11 @@
     font-family: 'Work Sans';
 }
 
+.primary_span {
+    color: #FF42A5;
+}
+
+
 /* start header part */
 
 .header {
@@ -34,9 +39,6 @@
     font-weight: 700;
 }
 
-.primary_span {
-    color: #FF42A5;
-}
 
 .menubar ul {
     display: flex;
@@ -179,4 +181,47 @@
 
 .section2_img img {
     width: 100%;
+}
+
+/* section_02 end */
+
+/* section_03 start  */
+.section3_container {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.section3_container h1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section3_container p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section3_game {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.section3_game p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section3_game img {
+    width: 280px;
+    height: 330px;
+    margin-bottom: 20px;
 }

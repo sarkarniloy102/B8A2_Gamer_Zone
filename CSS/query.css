@@ -3,13 +3,15 @@
     .navbar,
     .menubar ul,
     .section1_container,
-    .section2_container {
+    .section2_container,
+    .section3_game {
         flex-direction: column;
         gap: 30px;
     }
 
     .navbar,
-    .section2_container {
+    .section2_container,
+    .section3_game {
         margin: 0 auto;
         padding: 30px 0;
     }
@@ -28,7 +30,8 @@
         width: 100%;
     }
 
-    .section1_img img {
+    .section1_img img,
+    .section3_game img {
         width: 100%;
     }
 
@@ -36,6 +39,13 @@
         text-align: center;
         padding: 10px;
     }
+
+    .section3_game {
+        width: 100%;
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
@@ -65,6 +75,15 @@
     .section2_description {
         text-align: center;
         padding: 30px;
+    }
+
+    .section3_game {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        padding: 0;
+        text-align: center;
+
     }
 
 }
