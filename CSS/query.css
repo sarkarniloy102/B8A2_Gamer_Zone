@@ -73,11 +73,14 @@
         right: 55%;
     }
 
-    .section5_games_name {
+    .section5_games_name,
+    .foter_list ul,
+    .foter_account {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0;
+        margin-top: 10px;
         column-gap: 0px;
 
     }
@@ -89,6 +92,24 @@
     .section5_games_name li a {
         font-size: 10px;
         gap: 0px;
+    }
+
+    .foter_condition ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .foter p {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .foter_title {
+        margin-bottom: 50px;
     }
 }
 
@@ -156,16 +177,36 @@
         right: 55%;
     }
 
-    .section5_games_name {
+    .section5_games_name,
+    .foter_list ul,
+    .foter_account {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0;
         column-gap: 0px;
+        margin-bottom: 40px;
     }
 
     .section5_games_name li {
         width: 200px;
         gap: 0;
+    }
+
+    .foter {
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    .foter_title {
+        margin-bottom: 50px;
+    }
+
+    .foter_condition ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
     }
 }
