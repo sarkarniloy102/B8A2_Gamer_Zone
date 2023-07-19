@@ -102,6 +102,10 @@
     padding-bottom: 15px;
 }
 
+.description ul li i {
+    padding-right: 10px;
+}
+
 .btn1 {
     padding: 20px 35px;
     border: 0px;
