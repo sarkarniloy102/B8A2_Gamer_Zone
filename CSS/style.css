@@ -64,3 +64,68 @@
 
 
 /* end of header part */
+
+/* main part start */
+/* section_01 start */
+
+.section1_container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /* padding: 30px 180px 30px 220px; */
+
+}
+
+.section1_description {
+    background-image: url('../images/Group\ 14.png');
+    background-size: contain;
+    padding: 155px 200px;
+}
+
+.description p {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.description h1 {
+    font-size: 90px;
+    font-weight: 800;
+    color: #F948B2;
+}
+
+.description ul li {
+    list-style: none;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.btn1 {
+    padding: 20px 35px;
+    border: 0px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.btn2 {
+    padding: 20px 35px;
+    border: 0px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.section1_img img {
+    width: 80%;
+}
+
+/* section_01 end */
