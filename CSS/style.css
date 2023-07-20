@@ -255,12 +255,18 @@
     width: 280px;
     height: 330px;
     background: rgba(0, 0, 0, 0.6);
-    color: purple;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
     opacity: 0;
+    font-size: 30px;
+}
+
+.overlap p {
+    color: #F948B2;
+    font-size: 20px;
 }
 
 .overlap:hover {
