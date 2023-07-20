@@ -51,6 +51,11 @@
         text-align: center;
     }
 
+    .overlap {
+        width: 100%;
+        height: 83%;
+    }
+
 
     .section4_description h1,
     .section4_description p {
@@ -152,12 +157,23 @@
     }
 
     .section3_game {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+        flex-direction: column;
+        width: 100%;
+        margin: 20px auto;
         padding: 0;
-        text-align: center;
 
+    }
+
+    .section3_game img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .overlap {
+        width: 100%;
+        height: 93%;
     }
 
     .section4_description h1,
